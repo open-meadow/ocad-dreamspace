@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(255, 253, 144);
+}
+
+#wrapper{
+    position: absolute;
+    margin: auto;
+    width: 1500px;
+    height: 1650px;
+    background-color:floralwhite;
+    border-radius: 0px;
+    z-index: -2;
+}
+
+div.top_banner{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 10px;
+    padding: 10px;
+    border: 3px;
+    border-radius: 0px;
+    width: 1475px;
+    height: 150px;
+    background-color:rgb(22, 87, 136);
+    text-decoration: none;
+    color: floralwhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+    z-index: +2;
+}
+
+#torontreal{
+    color: floralwhite;
+    margin-left: 550px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+#torontreal:link{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#torontreal:visited{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#torontreal:hover{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#torontreal:active{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#get_vaccine{
+    position: fixed;
+    color: rgb(22, 87, 136);
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+#vaccineimg{
+    margin-top: -200px;
+    width: 1650px;
+    height: 1000px;
+}
+
+div.midwords{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    z-index: 0;
+}
+
+.box{
+    float: left;
+    margin-top: 1200px;
+    margin: 2px;
+    margin-bottom: 10px;
+    width: 350px;
+    padding: 10px;
+    height: 400px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: font-size 0.8s ease-in-out;
+    transition: margin-left 0.8s ease-in-out;
+    z-index: +1;
+}
+
+.box a:link{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.box a:visited{
+    color: floralwhite;
+}
+
+.box a:hover{
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box a:active{
+    color: gray;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+

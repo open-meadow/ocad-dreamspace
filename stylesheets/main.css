@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'hindi';
+    src: url('../fonts/Kruti-Regular.woff'), url('../fonts/Mangal-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(255, 253, 144);
+}
+
+#wrapper{
+    position: absolute;
+    margin: auto;
+    width: 1500px;
+    height: 725px;
+    background-color:rgb(217, 245, 217);
+    border-radius: 50px;
+}
+
+#top_left_message{
+    margin: 10px;
+    border: 3px;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    background-color:rgb(248, 248, 248);
+    padding: auto;
+    text-align: center;
+    font-family:cursive;
+    font-size: 45px;
+    z-index: +2;
+}
+
+#imgmodi{
+    border-radius: 50px;
+    width: 450px;
+    height: 150px;
+}
+
+#top_contact_name{
+    position: absolute;
+    margin: auto;
+    left: 475px;
+    height: 100px;
+    width: 1050px;
+    background-color: black;
+    color: white;
+}
+
+#imgmom {
+    position: relative;
+    display: block;
+    border-left: 1px solid gray;
+    margin-top: -99em;
+    top: -250px;
+    left: 500px;
+    width: 950px;
+    height: 700px;
+    margin-bottom: -1000px;
+    transition: margin-top 0.8s ease-in-out;
+}
+
+#imgdad {
+    position: relative;
+    display: block;
+    border-left: 1px solid gray;
+    margin-top: -99em;
+    top: -375px;
+    left: 500px;
+    width: 950px;
+    height: 700px;
+    margin-bottom: -1000px;
+    transition: margin-top 0.8s ease-in-out;
+}
+
+#imggran {
+    position: relative;
+    display: block;
+    border-left: 1px solid gray;
+    margin-top: -99em;
+    top: -505px;
+    left: 500px;
+    width: 950px;
+    height: 700px;
+    margin-bottom: -1000px;
+    transition: margin-top 0.8s ease-in-out;
+}
+
+#first_contact_name{
+    position: relative;
+    font-family: 'hindi';
+    margin-left: 10px;
+    border: 3px;
+    border-radius: 50px;
+    top: 170px;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    opacity: 70%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1em;
+    transition: margin-left 0.8s ease-in-out;
+}
+
+#first_contact_name:hover #imgmom{
+    margin-top: -1em;
+}
+
+#first_contact_name:hover{
+    margin-left: 2em;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+#second_contact_name{
+    position: relative;
+    font-family: 'hindi';
+    margin-left: 10px;
+    border: 3px;
+    border-radius: 50px;
+    top: 180px;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    opacity: 70%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1em;
+    transition: margin-left 0.8s ease-in-out;
+}
+
+#second_contact_name:hover #imgdad{
+    margin-top: -1em;
+}
+
+#second_contact_name:hover{
+    margin-left: 2em;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+#third_contact_name{
+    position: relative;
+    font-family: 'hindi';
+    margin-left: 10px;
+    border: 3px;
+    border-radius: 50px;
+    top: 190px;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    opacity: 70%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1em;
+    transition: margin-left 0.8s ease-in-out;
+}
+
+#third_contact_name:hover #imggran{
+    margin-top: -1em;
+}
+
+#third_contact_name:hover{
+    margin-left: 2em;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+#close a{
+    display: block;
+    margin-top: 300px;
+    height: auto;
+    padding: 4px;
+    border-radius: 50px;
+    width: 1500px;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    opacity: 70%;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.8s ease-in-out;
+}
+
+#close a:link{
+    color: black;
+    text-decoration: none;
+}
+
+#close a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#close:hover{
+    background-color: lightgray;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#close a:active{
+    text-decoration: none;
+}
